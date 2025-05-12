@@ -1,10 +1,17 @@
+// MainContent.jsx
+import Article from "./Article";
+
 function MainContent() {
   return (
     <main>
-      <p>
-        React is a JavaScript library for building user interfaces. In this lab,
-        we'll create and compose basic React components.
-      </p>
+      <Article
+        title="React Introduction"
+        content="React helps you build interactive UI."
+      />
+      <Article
+        title="Props"
+        content="Props are passed from parent to child component"
+      />
     </main>
   );
 }
